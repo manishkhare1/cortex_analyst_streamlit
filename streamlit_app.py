@@ -11,8 +11,8 @@ import snowflake.connector
 session = get_active_session()
 
 
-HOST = "<org-name>-<account-name>.snowflakecomputing.com"
-DATABASE = "CORTEX_ANALYST_DEMO"
+HOST = "A2686926235961.EA62570_STD.snowflakecomputing.com"
+DATABASE = "MANISHTEST"
 SCHEMA = "REVENUE_TIMESERIES"
 STAGE = "RAW_DATA"
 FILE = "revenue_timeseries.yaml"
