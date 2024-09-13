@@ -53,8 +53,7 @@ def send_message(prompt: str) -> Dict[str, Any]:
 
 
 def process_message(prompt: str) -> None:
-    """Processes a message and adds the response to the chat."""
-    .messages.append(
+    """Processes a message and adds the response to the chat.""".messages.append(
         {"role": "user", "content": [{"type": "text", "text": prompt}]}
     )
     with st.chat_message("user"):
